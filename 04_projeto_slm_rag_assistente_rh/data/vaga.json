@@ -1,0 +1,62 @@
+{
+  "id": "vaga_ia_senior",
+  "titulo": "Engenheiro(a) de IA Sênior",
+  "area": "Dados e Inteligência Artificial",
+  "senioridade": "senior",
+  "anos_minimos": 4,
+  "local": "Remoto no Brasil",
+  "resumo": "Construir produtos de IA aumentada com RAG, avaliação e operação responsável.",
+  "criterios": [
+    {
+      "id": "python_eng",
+      "nome": "Python e engenharia de software",
+      "peso": 0.2,
+      "termos": ["python", "api", "testes", "engenharia"],
+      "obrigatorio": true
+    },
+    {
+      "id": "sql",
+      "nome": "SQL e modelagem de dados",
+      "peso": 0.1,
+      "termos": ["sql", "modelagem", "dados"],
+      "obrigatorio": true
+    },
+    {
+      "id": "rag_llm",
+      "nome": "RAG, LLM e recuperação",
+      "peso": 0.2,
+      "termos": ["rag", "llm", "embeddings", "recuperacao", "vector"],
+      "obrigatorio": true
+    },
+    {
+      "id": "cloud",
+      "nome": "Cloud e containers",
+      "peso": 0.1,
+      "termos": ["aws", "docker", "cloud", "kubernetes"],
+      "obrigatorio": false
+    },
+    {
+      "id": "comunicacao",
+      "nome": "Comunicação com stakeholders",
+      "peso": 0.1,
+      "termos": ["comunicacao", "stakeholders", "apresentacao", "mentoria"],
+      "obrigatorio": false
+    },
+    {
+      "id": "ingles",
+      "nome": "Inglês técnico",
+      "peso": 0.1,
+      "termos": ["ingles", "advanced", "avancado", "fluente"],
+      "obrigatorio": false
+    },
+    {
+      "id": "experiencia",
+      "nome": "Experiência relevante",
+      "peso": 0.2,
+      "termos": [],
+      "obrigatorio": true
+    }
+  ],
+  "diferenciais": ["GraphRAG", "LangGraph", "avaliação de LLMs", "observabilidade"],
+  "competencias_comportamentais": ["colaboração", "aprendizado contínuo", "clareza escrita"]
+}

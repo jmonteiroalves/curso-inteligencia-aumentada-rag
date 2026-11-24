@@ -1,0 +1,10 @@
+[
+  {"id": "s01", "texto": "Preciso reembolsar R$ 320 de hotel da viagem a Recife. Tenho nota fiscal.", "intencao_esperada": "reembolso", "sop_esperado": "reembolso.md", "valor": 320.0},
+  {"id": "s02", "texto": "Quero comprar um monitor de 27 polegadas para o time de design. Orçamento de R$ 2.400.", "intencao_esperada": "compra", "sop_esperado": "compra.md", "valor": 2400.0},
+  {"id": "s03", "texto": "Um novo analista começa na segunda-feira e precisa de onboarding.", "intencao_esperada": "onboarding", "sop_esperado": "onboarding.md", "valor": 0.0},
+  {"id": "s04", "texto": "Perdi acesso à VPN depois da troca de senha. Preciso de login novamente.", "intencao_esperada": "acesso", "sop_esperado": "acesso.md", "valor": 0.0},
+  {"id": "s05", "texto": "Reembolso de almoço com cliente no valor de R$ 180, com comprovante.", "intencao_esperada": "reembolso", "sop_esperado": "reembolso.md", "valor": 180.0},
+  {"id": "s06", "texto": "Solicito uma licença do Figma para o time de design, R$ 480 por ano.", "intencao_esperada": "compra", "sop_esperado": "compra.md", "valor": 480.0},
+  {"id": "s07", "texto": "Cadastrar a usuária do financeiro no ERP com permissão de consulta.", "intencao_esperada": "acesso", "sop_esperado": "acesso.md", "valor": 0.0},
+  {"id": "s08", "texto": "Preciso resolver uma coisa no sistema, pode me ajudar?", "intencao_esperada": "desconhecido", "sop_esperado": "fallback.md", "valor": 0.0}
+]

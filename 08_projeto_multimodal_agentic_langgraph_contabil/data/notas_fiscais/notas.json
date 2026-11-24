@@ -1,0 +1,80 @@
+[
+  {
+    "arquivo": "nf_1001.png",
+    "numero": "1001",
+    "fornecedor": "Nimbus Cloud Serviços Ltda.",
+    "cnpj": "12.345.678/0001-90",
+    "data": "2026-02-03",
+    "categoria": "infraestrutura",
+    "itens": [
+      {
+        "descricao": "Serviço de nuvem — fevereiro",
+        "quantidade": 1,
+        "preco_unitario": 1200.0,
+        "subtotal": 1200.0
+      },
+      {
+        "descricao": "Backup gerenciado",
+        "quantidade": 2,
+        "preco_unitario": 150.0,
+        "subtotal": 300.0
+      }
+    ],
+    "total": 1500.0,
+    "imposto": 0.0,
+    "moeda": "BRL",
+    "texto_ocr": "NOTA FISCAL DE SERVIÇOS — DOCUMENTO FICTÍCIO\nNúmero: 1001\nFornecedor: Nimbus Cloud Serviços Ltda.\nCNPJ: 12.345.678/0001-90\nData de emissão: 2026-02-03\n\nServiço de nuvem — fevereiro | qtd 1 | unit R$ 1200.00 | subtotal R$ 1200.00\nBackup gerenciado | qtd 2 | unit R$ 150.00 | subtotal R$ 300.00\n\nTotal da nota: R$ 1500.00\nImpostos: R$ 0.00\nPagamento: transferência bancária"
+  },
+  {
+    "arquivo": "nf_1002.png",
+    "numero": "1002",
+    "fornecedor": "Atlas Data Analytics Ltda.",
+    "cnpj": "98.765.432/0001-10",
+    "data": "2026-02-10",
+    "categoria": "dados",
+    "itens": [
+      {
+        "descricao": "Plataforma de dados — fevereiro",
+        "quantidade": 1,
+        "preco_unitario": 480.0,
+        "subtotal": 480.0
+      },
+      {
+        "descricao": "Suporte analítico",
+        "quantidade": 3,
+        "preco_unitario": 100.0,
+        "subtotal": 300.0
+      }
+    ],
+    "total": 780.0,
+    "imposto": 0.0,
+    "moeda": "BRL",
+    "texto_ocr": "NOTA FISCAL DE SERVIÇOS — DOCUMENTO FICTÍCIO\nNúmero: 1002\nFornecedor: Atlas Data Analytics Ltda.\nCNPJ: 98.765.432/0001-10\nData de emissão: 2026-02-10\n\nPlataforma de dados — fevereiro | qtd 1 | unit R$ 480.00 | subtotal R$ 480.00\nSuporte analítico | qtd 3 | unit R$ 100.00 | subtotal R$ 300.00\n\nTotal da nota: R$ 780.00\nImpostos: R$ 0.00\nPagamento: transferência bancária"
+  },
+  {
+    "arquivo": "nf_1003.png",
+    "numero": "1003",
+    "fornecedor": "Nimbus Cloud Serviços Ltda.",
+    "cnpj": "12.345.678/0001-90",
+    "data": "2026-03-05",
+    "categoria": "infraestrutura",
+    "itens": [
+      {
+        "descricao": "Serviço de nuvem — março",
+        "quantidade": 1,
+        "preco_unitario": 1200.0,
+        "subtotal": 1200.0
+      },
+      {
+        "descricao": "Reserva de capacidade",
+        "quantidade": 1,
+        "preco_unitario": 1200.0,
+        "subtotal": 1200.0
+      }
+    ],
+    "total": 2450.0,
+    "imposto": 0.0,
+    "moeda": "BRL",
+    "texto_ocr": "NOTA FISCAL DE SERVIÇOS — DOCUMENTO FICTÍCIO\nNúmero: 1003\nFornecedor: Nimbus Cloud Serviços Ltda.\nCNPJ: 12.345.678/0001-90\nData de emissão: 2026-03-05\n\nServiço de nuvem — março | qtd 1 | unit R$ 1200.00 | subtotal R$ 1200.00\nReserva de capacidade | qtd 1 | unit R$ 1200.00 | subtotal R$ 1200.00\n\nTotal da nota: R$ 2450.00\nImpostos: R$ 0.00\nPagamento: transferência bancária"
+  }
+]

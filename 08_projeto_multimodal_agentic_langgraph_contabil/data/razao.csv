@@ -1,0 +1,6 @@
+lancamento_id,data,fornecedor,documento,valor,status,centro_custo
+L001,2026-02-05,Nimbus Cloud Serviços Ltda.,1001,1500.00,pago,infraestrutura
+L002,2026-02-12,Atlas Data Analytics Ltda.,1002,780.00,pendente,dados
+L003,2026-03-07,Nimbus Cloud Serviços Ltda.,1003,2450.00,pendente,infraestrutura
+L004,2026-02-06,Nimbus Cloud Serviços Ltda.,1001,1500.00,pago,infraestrutura
+L005,2026-02-20,Gráfica Ponto Ltda.,1004,320.00,pago,marketing

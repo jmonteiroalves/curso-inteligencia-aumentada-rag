@@ -1,0 +1,7 @@
+{"id":"q1","pergunta":"Quantos dias de férias um colaborador tem direito?","fontes":["politica_ferias.md"],"termos":["30"]}
+{"id":"q2","pergunta":"Qual é o tempo de primeira resposta para um incidente P1?","fontes":["incidentes_suporte.md"],"termos":["15"]}
+{"id":"q3","pergunta":"Quando um alerta de vibração é aberto?","fontes":["manutencao_preditiva.md"],"termos":["7,5"]}
+{"id":"q4","pergunta":"Por quanto tempo o gateway mantém dados quando fica offline?","fontes":["arquitetura_edge.md"],"termos":["72"]}
+{"id":"q5","pergunta":"Qual é o prazo para reportar um incidente com dados pessoais ao DPO?","fontes":["seguranca_lgpd.md"],"termos":["1 hora"]}
+{"id":"q6","pergunta":"Qual é a capital da França?","fontes":[],"termos":[],"respondivel":false}
+{"id":"q7","pergunta":"Quem ganhou a copa do mundo de 1998?","fontes":[],"termos":[],"respondivel":false}

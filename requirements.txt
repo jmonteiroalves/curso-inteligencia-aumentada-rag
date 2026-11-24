@@ -1,0 +1,32 @@
+# Stack principal (todos os demos têm fallback offline)
+pydantic>=2.8,<3
+python-dotenv>=1.0
+httpx>=0.27
+fastapi>=0.115
+uvicorn[standard]>=0.30
+
+# LLMs locais e clientes compatíveis
+ollama>=0.4
+openai>=1.50
+
+# Vetores e bancos
+qdrant-client>=1.12
+psycopg[binary]>=3.2
+pgvector>=0.3
+neo4j>=5.25
+networkx>=3.3
+
+# Orquestração e documentos
+langgraph>=0.2.50
+pymupdf>=1.24
+pillow>=10.4
+
+# Desenvolvimento
+pytest>=8.3
+ruff>=0.7
+mypy>=1.13
+
+# Opcional: pipeline de documentos mais pesado
+# docling>=2.0
+# Opcional: observabilidade
+# langfuse>=2.50

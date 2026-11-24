@@ -1,0 +1,70 @@
+{
+  "intencoes": [
+    {
+      "id": "reembolso",
+      "titulo": "Reembolso de despesas",
+      "sop": "reembolso.md",
+      "palavras_chave": ["reembolso", "despesa", "nota fiscal", "hotel", "almoço", "almoco", "uber", "km", "quilometragem", "comprovante"],
+      "ferramentas": ["validar_despesa", "criar_reembolso", "escalar_gestor"],
+      "limite_automatico": 500.0,
+      "risco": "financeiro",
+      "passos": [
+        "Confirmar colaborador, centro de custo e comprovante",
+        "Validar política, data e limite automático",
+        "Criar reembolso ou escalar para aprovação do gestor"
+      ]
+    },
+    {
+      "id": "compra",
+      "titulo": "Solicitação de compra",
+      "sop": "compra.md",
+      "palavras_chave": ["compra", "comprar", "licença", "figma", "monitor", "fornecedor", "orçamento", "orcamento", "licenca", "equipamento"],
+      "ferramentas": ["validar_orcamento", "criar_solicitacao_compra", "escalar_gestor"],
+      "limite_automatico": 1000.0,
+      "risco": "financeiro",
+      "passos": [
+        "Descrever item, quantidade e justificativa de negócio",
+        "Verificar orçamento e limite de compra",
+        "Criar solicitação ou escalar para aprovação"
+      ]
+    },
+    {
+      "id": "onboarding",
+      "titulo": "Onboarding de colaborador",
+      "sop": "onboarding.md",
+      "palavras_chave": ["onboarding", "novo", "nova", "analista", "começa", "comeca", "admissão", "admissao", "colaborador", "equipamento"],
+      "ferramentas": ["criar_usuario", "agendar_onboarding", "escalar_gestor"],
+      "limite_automatico": 0.0,
+      "risco": "medio",
+      "passos": [
+        "Confirmar nome, cargo, gestor e data de início",
+        "Criar conta e pacote de acessos padrão",
+        "Agendar sessão de onboarding e buddy"
+      ]
+    },
+    {
+      "id": "acesso",
+      "titulo": "Concessão de acesso",
+      "sop": "acesso.md",
+      "palavras_chave": ["acesso", "vpn", "senha", "permissão", "permissao", "usuário", "usuario", "erp", "login"],
+      "ferramentas": ["verificar_identidade", "conceder_acesso", "escalar_gestor"],
+      "limite_automatico": 0.0,
+      "risco": "seguranca",
+      "passos": [
+        "Verificar identidade e justificativa",
+        "Aplicar menor privilégio",
+        "Conceder acesso e registrar auditoria"
+      ]
+    }
+  ],
+  "fallback": {
+    "id": "desconhecido",
+    "titulo": "Solicitação não reconhecida",
+    "sop": "fallback.md",
+    "palavras_chave": [],
+    "ferramentas": ["escalar_suporte"],
+    "limite_automatico": 0.0,
+    "risco": "indefinido",
+    "passos": ["Coletar contexto adicional", "Encaminhar para atendimento humano"]
+  }
+}

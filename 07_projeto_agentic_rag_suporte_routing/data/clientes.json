@@ -1,0 +1,7 @@
+[
+  {"id": "c01", "nome": "Contabilidade Aurora", "plano": "Pro", "contato": "ana@example.test"},
+  {"id": "c02", "nome": "Oficina Lima", "plano": "Starter", "contato": "bruno@example.test"},
+  {"id": "c03", "nome": "Grupo Norte", "plano": "Enterprise", "contato": "carla@example.test"},
+  {"id": "c04", "nome": "Clínica Bem", "plano": "Enterprise", "contato": "diego@example.test"},
+  {"id": "c05", "nome": "Mercado Sul", "plano": "Pro", "contato": "elisa@example.test"}
+]

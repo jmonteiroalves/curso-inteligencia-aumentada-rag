@@ -1,0 +1,83 @@
+name: curso-inteligencia-aumentada-rag
+
+# Serviços opcionais. O curso roda offline sem eles.
+# Uso:
+#   docker compose up -d ollama
+#   docker compose --profile vectors up -d qdrant
+#   docker compose --profile pgvector up -d postgres
+#   docker compose --profile graph up -d neo4j
+
+services:
+  ollama:
+    image: ollama/ollama:latest
+    container_name: curso-rag-ollama
+    ports:
+      - "11434:11434"
+    volumes:
+      - ollama_data:/root/.ollama
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "ollama", "list"]
+      interval: 15s
+      timeout: 10s
+      retries: 5
+
+  qdrant:
+    image: qdrant/qdrant:latest
+    container_name: curso-rag-qdrant
+    profiles: ["vectors", "full"]
+    ports:
+      - "6333:6333"
+      - "6334:6334"
+    volumes:
+      - qdrant_data:/qdrant/storage
+    restart: unless-stopped
+
+  postgres:
+    image: pgvector/pgvector:pg16
+    container_name: curso-rag-postgres
+    profiles: ["pgvector", "full"]
+    environment:
+      POSTGRES_USER: curso
+      POSTGRES_PASSWORD: curso
+      POSTGRES_DB: curso_rag
+    ports:
+      - "5432:5432"
+    volumes:
+      - pg_data:/var/lib/postgresql/data
+      - ./scripts/init_pgvector.sql:/docker-entrypoint-initdb.d/init.sql:ro
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U curso -d curso_rag"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    restart: unless-stopped
+
+  neo4j:
+    image: neo4j:5-community
+    container_name: curso-rag-neo4j
+    profiles: ["graph", "full"]
+    environment:
+      NEO4J_AUTH: neo4j/curso-rag-local
+      NEO4J_server_memory_heap_initial__size: 512m
+      NEO4J_server_memory_heap_max__size: 1G
+      NEO4J_PLUGINS: '["apoc"]'
+    ports:
+      - "7474:7474"
+      - "7687:7687"
+    volumes:
+      - neo4j_data:/data
+      - neo4j_logs:/logs
+    healthcheck:
+      test: ["CMD-SHELL", "wget -q --spider http://localhost:7474 || exit 1"]
+      interval: 15s
+      timeout: 10s
+      retries: 10
+    restart: unless-stopped
+
+volumes:
+  ollama_data:
+  qdrant_data:
+  pg_data:
+  neo4j_data:
+  neo4j_logs:

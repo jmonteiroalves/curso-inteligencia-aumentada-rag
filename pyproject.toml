@@ -1,0 +1,50 @@
+[project]
+name = "curso-inteligencia-aumentada-rag"
+version = "0.1.0"
+description = "Curso hands-on de RAG, GraphRAG e Agentic RAG com dados sintéticos"
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "MIT" }
+authors = [{ name = "Trilha de Inteligência Aumentada" }]
+dependencies = [
+  "pydantic>=2.8,<3",
+  "python-dotenv>=1.0",
+  "httpx>=0.27",
+  "fastapi>=0.115",
+  "uvicorn[standard]>=0.30",
+  "ollama>=0.4",
+  "openai>=1.50",
+  "qdrant-client>=1.12",
+  "psycopg[binary]>=3.2",
+  "pgvector>=0.3",
+  "neo4j>=5.25",
+  "networkx>=3.3",
+  "langgraph>=0.2.50",
+  "pymupdf>=1.24",
+]
+
+[project.optional-dependencies]
+multimodal = ["pillow>=10.4", "docling>=2.0"]
+dev = ["pytest>=8.3", "ruff>=0.7", "mypy>=1.13"]
+observability = ["langfuse>=2.50"]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.uv]
+package = false
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+exclude = ["solucao/**", ".venv/**"]
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B"]
+ignore = ["E501"]
+
+[tool.mypy]
+python_version = "3.11"
+ignore_missing_imports = true
+warn_unused_ignores = true

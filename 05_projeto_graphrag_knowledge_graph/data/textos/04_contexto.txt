@@ -1,0 +1,7 @@
+O Projeto Aurora RAG atende o time de suporte com respostas citadas e abstenção.
+A Aurora Tech investe em Python e em avaliação contínua de sistemas de IA.
+A Plataforma Atlas processa dados financeiros e integra o Neo4j para linhagem.
+O Projeto Graph conecta pessoas, projetos e tecnologias para perguntas de múltiplos saltos.
+A Nimbus Cloud oferece infraestrutura regional e um programa de parceiros.
+O Instituto Horizonte apoia pesquisa aplicada em grafos de conhecimento.
+A Atlas Data mantém um escritório no Recife e trabalha com dados regulados.

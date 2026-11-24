@@ -1,0 +1,9 @@
+O Projeto Aurora RAG usa o Qdrant.
+O Projeto Aurora RAG depende do PostgreSQL.
+O Projeto Aurora RAG usa o LangGraph.
+A Plataforma Atlas integra o Neo4j.
+A Plataforma Atlas usa o Kafka.
+O Projeto Graph usa o Neo4j.
+O Projeto Graph usa o LangGraph.
+Beatriz Nunes participa do Projeto Graph.
+Rafael Alves participa do Projeto Graph.

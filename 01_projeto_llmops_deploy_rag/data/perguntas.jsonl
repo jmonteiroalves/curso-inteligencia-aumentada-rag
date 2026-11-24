@@ -1,0 +1,6 @@
+{"id":"q1","pergunta":"Quantos usuários o plano Pro permite?","fontes":["planos.md"],"termos":["25"],"respondivel":true}
+{"id":"q2","pergunta":"Qual é o SLA de primeira resposta para um incidente P1?","fontes":["sla.md"],"termos":["15"],"respondivel":true}
+{"id":"q3","pergunta":"Quanto tempo dura a implantação padrão?","fontes":["onboarding.md"],"termos":["14"],"respondivel":true}
+{"id":"q4","pergunta":"Quais formatos a Captura aceita?","fontes":["produto.md"],"termos":["PDF"],"respondivel":true}
+{"id":"q5","pergunta":"Qual o desconto anual do plano Pro e o SLA Enterprise?","fontes":["planos.md","sla.md"],"termos":["15","24x7"],"respondivel":true}
+{"id":"q6","pergunta":"Qual é a política de reembolso de passagens aéreas?","fontes":[],"termos":[],"respondivel":false}

@@ -1,0 +1,24 @@
+{
+  "entidades": [
+    {"nome": "Marina Costa", "tipo": "PESSOA", "aliases": ["Marina Costa"]},
+    {"nome": "Rafael Alves", "tipo": "PESSOA", "aliases": ["Rafael Alves"]},
+    {"nome": "Beatriz Nunes", "tipo": "PESSOA", "aliases": ["Beatriz Nunes"]},
+    {"nome": "Lucas Ferreira", "tipo": "PESSOA", "aliases": ["Lucas Ferreira"]},
+    {"nome": "Aurora Tech", "tipo": "ORGANIZACAO", "aliases": ["Aurora Tech"]},
+    {"nome": "Nimbus Cloud", "tipo": "ORGANIZACAO", "aliases": ["Nimbus Cloud"]},
+    {"nome": "Atlas Data", "tipo": "ORGANIZACAO", "aliases": ["Atlas Data"]},
+    {"nome": "Instituto Horizonte", "tipo": "ORGANIZACAO", "aliases": ["Instituto Horizonte"]},
+    {"nome": "Projeto Aurora RAG", "tipo": "PROJETO", "aliases": ["Projeto Aurora RAG"]},
+    {"nome": "Projeto Graph", "tipo": "PROJETO", "aliases": ["Projeto Graph"]},
+    {"nome": "Plataforma Atlas", "tipo": "PROJETO", "aliases": ["Plataforma Atlas"]},
+    {"nome": "Qdrant", "tipo": "TECNOLOGIA", "aliases": ["Qdrant"]},
+    {"nome": "Neo4j", "tipo": "TECNOLOGIA", "aliases": ["Neo4j"]},
+    {"nome": "LangGraph", "tipo": "TECNOLOGIA", "aliases": ["LangGraph"]},
+    {"nome": "PostgreSQL", "tipo": "TECNOLOGIA", "aliases": ["PostgreSQL"]},
+    {"nome": "Python", "tipo": "TECNOLOGIA", "aliases": ["Python"]},
+    {"nome": "Kafka", "tipo": "TECNOLOGIA", "aliases": ["Kafka"]},
+    {"nome": "São Paulo", "tipo": "CIDADE", "aliases": ["São Paulo"]},
+    {"nome": "Recife", "tipo": "CIDADE", "aliases": ["Recife"]},
+    {"nome": "Curitiba", "tipo": "CIDADE", "aliases": ["Curitiba"]}
+  ]
+}

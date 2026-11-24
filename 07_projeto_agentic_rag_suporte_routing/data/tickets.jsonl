@@ -1,0 +1,10 @@
+{"id":"t01","cliente_id":"c01","texto":"Fomos cobrados duas vezes pela mesma fatura de março, R$ 249,90. Quero reembolso.","categoria_esperada":"cobranca","prioridade_esperada":"P2","status_esperado":"aguardando_aprovacao","valor":249.90}
+{"id":"t02","cliente_id":"c02","texto":"Não consigo acessar minha conta, a senha expirou e o login falha.","categoria_esperada":"acesso","prioridade_esperada":"P3","status_esperado":"resolvido","valor":0}
+{"id":"t03","cliente_id":"c03","texto":"A API de integração retorna erro 500 para todos os clientes desde 9h.","categoria_esperada":"integracao","prioridade_esperada":"P1","status_esperado":"handoff","valor":0}
+{"id":"t04","cliente_id":"c04","texto":"Recebi um e-mail suspeito pedindo minhas credenciais e dados de pacientes.","categoria_esperada":"seguranca","prioridade_esperada":"P1","status_esperado":"handoff","valor":0}
+{"id":"t05","cliente_id":"c05","texto":"O webhook de pagamentos não chega desde ontem; alguns eventos ficaram pendentes.","categoria_esperada":"integracao","prioridade_esperada":"P2","status_esperado":"resolvido","valor":0}
+{"id":"t06","cliente_id":"c01","texto":"Quero alterar o cartão usado na cobrança do plano.","categoria_esperada":"cobranca","prioridade_esperada":"P3","status_esperado":"resolvido","valor":0}
+{"id":"t07","cliente_id":"c02","texto":"Meu usuário ficou bloqueado depois de várias tentativas de login.","categoria_esperada":"acesso","prioridade_esperada":"P3","status_esperado":"resolvido","valor":0}
+{"id":"t08","cliente_id":"c03","texto":"Identificamos acesso indevido a um relatório de outro cliente. Pode haver vazamento.","categoria_esperada":"seguranca","prioridade_esperada":"P1","status_esperado":"handoff","valor":0}
+{"id":"t09","cliente_id":"c05","texto":"Quantos usuários o plano Pro permite? Precisamos planejar o time.","categoria_esperada":"cobranca","prioridade_esperada":"P3","status_esperado":"resolvido","valor":0}
+{"id":"t10","cliente_id":"c04","texto":"A integração com o ERP está parada e 50 usuários estão afetados.","categoria_esperada":"integracao","prioridade_esperada":"P2","status_esperado":"handoff","valor":0}
